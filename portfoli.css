@@ -1,0 +1,100 @@
+@import url("components/avatar.css");
+@import url("components/card.css");
+@import url("components/shake.css");
+@import url("components/bounce.css");
+@import url("components/button.css");
+@import url("https://fonts.googleapis.com/css?family=Dosis|Indie+Flower|Open+Sans+Condensed:300|Pacifico|Poiret+One|Kaushan+Script");
+body {
+    background: rgba(78, 82, 192, 0.5);
+}
+
+.divider .navbar {
+    background-color: rgba(78, 82, 192, 0.3);
+}
+
+.divider ul {
+    margin-top: 17px;
+    font-size: 18px;
+    letter-spacing: 15px;
+}
+
+.divider ul li a {
+    color: black;
+}
+
+.branded {
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.navbar-brand img {
+    width: 70px;
+    margin: -11px;
+}
+
+.infoCenter {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.infop {
+    color: white;
+    margin: 50px 100px 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    text-align: right;
+}
+
+.infop p {
+    margin: -21px -20px 10px;
+}
+
+hr {
+    height: 5px;
+    background-color: grey;
+    margin: 0px;
+    border: 0px none;
+}
+
+.middlebar .navbar {
+    border-radius: 0px;
+    background-color: rgba(78, 82, 192, 0.3);
+    /*
+    background-color: rgba(255, 246, 162, 0.6); */
+}
+
+#footer {
+    padding: 19px;
+    background: rgb(30, 30, 30);
+    color: white;
+    font-size: 20px;
+    margin-top: 52px;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
+.divider .navbar .phonenumber {
+    font-weight: bold;
+}
+
+.navbar-text {
+    float: inherit;
+}
+
+.middlebar .navbar .middlecontent .middletext {
+    margin-right: 10px;
+    display: initial;
+}
+
+.fa-arrow-circle-o-right {
+    color: white;
+}
+
+.footer span .spanned {
+    font-size: 7px;
+    color: red;
+}
